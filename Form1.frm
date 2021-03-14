@@ -2,14 +2,14 @@ VERSION 5.00
 Object = "{F9043C88-F6F2-101A-A3C9-08002B2F49FB}#1.2#0"; "comdlg32.ocx"
 Object = "{01646141-065C-11D4-8ED3-00E07D815373}#1.0#0"; "MBBrowse.ocx"
 Begin VB.Form Form1 
-   Caption         =   "Form1"
-   ClientHeight    =   2985
+   Caption         =   "Attribute Resetter"
+   ClientHeight    =   2535
    ClientLeft      =   120
    ClientTop       =   450
-   ClientWidth     =   6135
+   ClientWidth     =   5940
    LinkTopic       =   "Form1"
-   ScaleHeight     =   2985
-   ScaleWidth      =   6135
+   ScaleHeight     =   2535
+   ScaleWidth      =   5940
    StartUpPosition =   3  'Windows Default
    Begin MBBrowse.BrowseFF m 
       Left            =   600
@@ -27,7 +27,7 @@ Begin VB.Form Form1
       EndProperty
    End
    Begin VB.CommandButton Command2 
-      Caption         =   "folder"
+      Caption         =   "Folder"
       Height          =   855
       Left            =   4680
       TabIndex        =   3
@@ -35,7 +35,7 @@ Begin VB.Form Form1
       Width           =   1095
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "file"
+      Caption         =   "File"
       Height          =   735
       Left            =   4680
       TabIndex        =   1
@@ -50,15 +50,13 @@ Begin VB.Form Form1
       _Version        =   393216
    End
    Begin VB.Label Label2 
-      Caption         =   "Label2"
       Height          =   735
       Left            =   480
       TabIndex        =   2
       Top             =   1440
-      Width           =   3495
+      Width           =   3975
    End
    Begin VB.Label Label1 
-      Caption         =   "Label1"
       Height          =   735
       Left            =   600
       TabIndex        =   0
@@ -92,3 +90,6 @@ fo.Attributes = Normal
 
 End Sub
 
+Private Sub Label1_Click()
+
+End Sub
