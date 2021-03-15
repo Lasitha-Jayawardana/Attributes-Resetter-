@@ -1,4 +1,4 @@
-# Attributes-Resetter
+# Attributes-Resetter  [![HitCount](http://hits.dwyl.com/Lasitha-Jayawardana/Attributes-Resetter-.svg)](http://hits.dwyl.com/Lasitha-Jayawardana/Attributes-Resetter-)
 Simple Attributes resetter for files and folder.
 
 
